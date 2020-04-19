@@ -1,0 +1,73 @@
+
+/* Fonts */
+
+@font-face{
+  src: url('fonts/Roboto/Roboto-Regular.ttf');
+  font-family: roboto;
+}
+
+/* All */
+
+*{
+  font-family: roboto;
+}
+
+*:not(strong){
+  font-weight: normal;
+}
+
+/* Basic stuff */
+
+.basic{
+
+}
+
+/* Headers */
+
+.basic.h1{}
+
+.basic.h2{}
+
+.basic.h3{}
+
+.basic.h4{}
+
+/* Buttons */
+
+.basic.button{
+  background-color: #ededed;
+  border: 1px solid #e0e0e0;
+  padding: 7.5px;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+.basic.button:hover{
+  background-color: white;
+}
+
+.basic.button:focus{
+  outline: none;
+  border-color: #96b8ef;
+}
+
+.basic.button:active{
+  background-color: #e3e3e3;
+  border-color: #c9c9c9;
+}
+
+/* Hyperlinks */
+
+.basic.hyperlink{
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+/*.basic.hyperlink:visited{
+  color: #731ae8;
+}*/
+
+.basic.hyperlink:hover{
+  text-decoration: underline;
+}
