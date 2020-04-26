@@ -40,7 +40,7 @@
   padding: 7.5px;
   border-radius: 5px;
   font-size: 18px;
-  transition: 0.5s;
+  transition: background-color 0.5s, border-color 0.5s;
 }
 
 .basic.button:hover{
@@ -75,7 +75,7 @@
   padding: 7.5px;
   border-radius: 5px;
   font-size: 18px;
-  transition: 0.5s;
+  transition: border-color 0.5s, background-color 0.5s;
 }
 
 .basic.input:focus{
