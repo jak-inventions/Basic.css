@@ -54,12 +54,12 @@ button:active{
 
 /* Hyperlinks */
 
-a{
+a:link{
   color: #1a73e8;
   text-decoration: none;
 }
 
-a:hover{
+a:link:hover{
   text-decoration: underline;
 }
 
