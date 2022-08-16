@@ -9,32 +9,26 @@
 /* All */
 
 *{
-  font-family: roboto;
+  font-family: roboto, arial;
 }
 
 *:not(strong){
   font-weight: normal;
 }
 
-/* Basic stuff */
-
-.basic{
-
-}
-
 /* Headers */
 
-.basic.h1{}
+h1{}
 
-.basic.h2{}
+h2{}
 
-.basic.h3{}
+h3{}
 
-.basic.h4{}
+h4{}
 
 /* Buttons */
 
-.basic.button{
+button{
   background-color: #ededed;
   border: 1px solid #e0e0e0;
   padding: 7.5px;
@@ -44,34 +38,34 @@
   transition: background-color 0.5s, border-color 0.5s;
 }
 
-.basic.button:hover{
+button:hover{
   background-color: white;
 }
 
-.basic.button:focus{
+button:focus{
   outline: none;
   border-color: #96b8ef;
 }
 
-.basic.button:active{
+button:active{
   background-color: #e3e3e3;
   border-color: #c9c9c9;
 }
 
 /* Hyperlinks */
 
-.basic.hyperlink{
+a{
   color: #1a73e8;
   text-decoration: none;
 }
 
-.basic.hyperlink:hover{
+a:hover{
   text-decoration: underline;
 }
 
 /* Inputs */
 
-.basic.input{
+input{
   border: 1px solid #e0e0e0;
   padding: 7.5px;
   border-radius: 5px;
@@ -79,42 +73,42 @@
   transition: border-color 0.5s, background-color 0.5s;
 }
 
-.basic.input:focus{
+input:focus{
   outline: none;
   border-color: #96b8ef;
 }
 
 /* Submit */
 
-.basic.input[type=submit]{
+input[type=submit]{
   cursor: pointer;
 }
 
 /* Checkbox */
 
-.basic.input[type=checkbox]{
+input[type=checkbox]{
 
 }
 
-.basic.input[type=checkbox]:hover{
+input[type=checkbox]:hover{
 
 }
 
-.basic.input[type=checkbox]:active{
+input[type=checkbox]:active{
 
 }
 
 /* Submit */
 
-.basic.input[type=submit]{
+input[type=submit]{
   background-color: #ededed;
 }
 
-.basic.input[type=submit]:hover{
+input[type=submit]:hover{
   background-color: white;
 }
 
-.basic.input[type=submit]:active{
+input[type=submit]:active{
   background-color: #e3e3e3;
   border-color: #c9c9c9;
 }
