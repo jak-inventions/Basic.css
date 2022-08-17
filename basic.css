@@ -95,20 +95,6 @@ input[type=submit]{
   cursor: pointer;
 }
 
-/* <input type="checkbox"> */
-
-input[type=checkbox]{
-
-}
-
-input[type=checkbox]:hover{
-
-}
-
-input[type=checkbox]:active{
-
-}
-
 /* <input type="submit"> */
 
 input[type=submit]{
