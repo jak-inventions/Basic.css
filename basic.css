@@ -144,3 +144,11 @@ code{
   border-radius: 5px;
   background-color: #E8E8E8;
 }
+
+/* <iframe> */
+
+iframe{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
