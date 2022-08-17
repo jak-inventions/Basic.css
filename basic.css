@@ -12,6 +12,11 @@
   font-family: roboto, arial;
 }
 
+/* p */
+
+p{
+  line-height: 125%;
+}
 
 /* <hr> */
 
