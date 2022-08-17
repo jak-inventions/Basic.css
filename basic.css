@@ -21,8 +21,9 @@ p{
 /* <hr> */
 
 hr{
-  border: 2x solid lightgray;
-  border-radius: 5px;
+  height: 0;
+  border: 1px solid lightgray;
+  border-radius: 1px;
 }
 
 /* <button> */
