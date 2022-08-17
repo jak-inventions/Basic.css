@@ -131,6 +131,21 @@ code{
   background-color: #E8E8E8;
 }
 
+/* <textarea> */
+
+textarea{
+  border: 1px solid #e0e0e0;
+  padding: 7.5px;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: border-color 0.5s, background-color 0.5s;
+}
+
+textarea:focus{
+  outline: none;
+  border-color: #96b8ef;
+}
+
 /* <iframe> */
 
 iframe{
