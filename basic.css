@@ -12,11 +12,7 @@
   font-family: roboto, arial;
 }
 
-*:not(strong){
-  font-weight: normal;
-}
-
-/* Headers */
+/* <a> */
 
 h1{}
 
@@ -26,7 +22,14 @@ h3{}
 
 h4{}
 
-/* Buttons */
+/* <hr> */
+
+hr{
+  border: 2x solid lightgray;
+  border-radius: 5px;
+}
+
+/* <button> */
 
 button{
   background-color: #ededed;
@@ -52,18 +55,30 @@ button:active{
   border-color: #c9c9c9;
 }
 
-/* Hyperlinks */
+/* <a> */
 
 a:link{
   color: #1a73e8;
-  text-decoration: none;
 }
 
-a:link:hover{
+a:visited{
+  color: #6e34eb;
+}
+
+a:link, a:visited{
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:link:hover, a:visited:hover{
   text-decoration: underline;
 }
 
-/* Inputs */
+a:link:active, a:visited:active{
+  color: #eb6834;
+}
+
+/* <input> */
 
 input{
   border: 1px solid #e0e0e0;
@@ -78,13 +93,13 @@ input:focus{
   border-color: #96b8ef;
 }
 
-/* Submit */
+/* <input type="submit"> */
 
 input[type=submit]{
   cursor: pointer;
 }
 
-/* Checkbox */
+/* <input type="checkbox"> */
 
 input[type=checkbox]{
 
@@ -98,7 +113,7 @@ input[type=checkbox]:active{
 
 }
 
-/* Submit */
+/* <input type="submit"> */
 
 input[type=submit]{
   background-color: #ededed;
@@ -111,4 +126,25 @@ input[type=submit]:hover{
 input[type=submit]:active{
   background-color: #e3e3e3;
   border-color: #c9c9c9;
+}
+
+/* <table> <tr> <th> <td> */
+
+table, tr, th, td{
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+th{
+  background-color: #eee;
+}
+
+/* <code> */
+
+code{
+  font-family: monospace;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #E8E8E8;
 }
