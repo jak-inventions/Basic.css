@@ -44,7 +44,7 @@ button:hover{
 
 button:focus{
   outline: none;
-  outline-color: #96b8ef;
+  border-color: #96b8ef;
 }
 
 button:active{
