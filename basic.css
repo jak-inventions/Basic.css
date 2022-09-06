@@ -26,9 +26,9 @@ hr{
   border-radius: 1px;
 }
 
-/* <button> */
+/* <button> & <input type="submit"> */
 
-button{
+button, input[type=submit]{
   background-color: #ededed;
   border: 1px solid #e0e0e0;
   padding: 7.5px;
@@ -37,17 +37,17 @@ button{
   transition: background-color 0.25s, border-color 0.25s;
 }
 
-button:hover{
+button:hover, input[type=submit]:hover{
   background-color: #e3e3e3;
   border-color: #c9c9c9;
 }
 
-button:focus{
+button:focus, input[type=submit]:focus{
   outline: none;
   border-color: #96b8ef;
 }
 
-button:active{
+button:active, input[type=submit]:active{
   background-color: #f8f8f8;
 }
 
@@ -86,27 +86,6 @@ input{
 input:focus{
   outline: none;
   border-color: #96b8ef;
-}
-
-/* <input type="submit"> */
-
-input[type=submit]{
-  cursor: pointer;
-}
-
-/* <input type="submit"> */
-
-input[type=submit]{
-  background-color: #ededed;
-}
-
-input[type=submit]:hover{
-  background-color: white;
-}
-
-input[type=submit]:active{
-  background-color: #e3e3e3;
-  border-color: #c9c9c9;
 }
 
 /* <table> <tr> <th> <td> */
