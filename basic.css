@@ -107,6 +107,7 @@ code{
   padding: 5px;
   border-radius: 5px;
   background-color: #E8E8E8;
+  display: inline-block;
 }
 
 /* <textarea> */
